@@ -19,15 +19,11 @@ It includes a FastAPI service and a worker, both containerized using Docker and 
 
 ## Structure
 
-app/        API  
-worker/     background service  
-docker/     Dockerfiles  
-k8s/        Kubernetes configs  
+- app/        API
+- worker/     background service
+- docker/     Dockerfiles
+- k8s/        Kubernetes configs
 
 ## Run locally
 
 uvicorn app.main:app --reload
-
-## Note
-
-This is a simplified version of a larger system built using Kubernetes, CI/CD, and cloud infrastructure.
