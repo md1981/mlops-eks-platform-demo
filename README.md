@@ -26,4 +26,4 @@ It includes a FastAPI service and a worker, both containerized using Docker and 
 
 ## Run locally
 
-uvicorn app.main:app --reload
+uvicorn main:app --reload
